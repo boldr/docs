@@ -1,4 +1,4 @@
-# ![](/assets/boldr-text-logo.png) {#what-is-boldr}
+# ![boldr-logo](/assets/boldr-text-logo.png)
 
 
 
