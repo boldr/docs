@@ -10,7 +10,7 @@
   * [BoldrAPI](configuration/boldrapi.md)
   * [Working with Docker](configuration/configuring-webpack.md)
 * [Tools and Resources](tools-and-resources.md)
-  * Webpack
+  * [Webpack](tools-and-resources/webpack.md)
   * FlowType
   * NGINX
 
