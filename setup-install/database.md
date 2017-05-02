@@ -1,4 +1,4 @@
-# Configuring Boldr's database
+# Setup Boldr's database
 
 
 

@@ -6,5 +6,11 @@
   * [1b. Setup from GitHub](setup-install/setup-from-github.md)
   * [Database](setup-install/database.md)
 * [Configuration](configuration/README.md)
+  * [BoldrCMS](configuration/boldrcms.md)
+  * [BoldrAPI](configuration/boldrapi.md)
+  * [Working with Docker](configuration/configuring-webpack.md)
 * [Tools and Resources](tools-and-resources.md)
+  * Webpack
+  * FlowType
+  * NGINX
 
