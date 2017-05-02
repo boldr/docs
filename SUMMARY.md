@@ -1,3 +1,6 @@
 # Summary
 
-* [First Chapter](chapter1.md)
+* [Introduction](README.md)
+* [Setup and Installation](setup-install/getting-started.md)
+  * [Requirements](setup-install/getting-started/requirements.md)
+
