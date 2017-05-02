@@ -11,6 +11,6 @@
   * [Working with Docker](configuration/configuring-webpack.md)
 * [Tools and Resources](tools-and-resources.md)
   * [Webpack](tools-and-resources/webpack.md)
-  * FlowType
+  * [FlowType](tools-and-resources/flowtype.md)
   * NGINX
 
