@@ -1,4 +1,0 @@
-# BoldrAPI Configuration
-
-
-

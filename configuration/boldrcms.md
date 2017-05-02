@@ -1,4 +1,0 @@
-# BoldrCMS Configuration
-
-
-
