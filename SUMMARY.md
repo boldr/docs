@@ -5,6 +5,8 @@
   * [1a. Using the CLI](setup-install/using-the-cli.md)
   * [1b. Setup from GitHub](setup-install/setup-from-github.md)
   * [Database](setup-install/database.md)
+* [BoldrCMS](boldr-cms/README.md)
+  * [Redux Organization](boldr-cms/redux-organization.md)
 * [Configuration](configuration/README.md)
   * [BoldrCMS](configuration/boldrcms.md)
   * [BoldrAPI](configuration/boldrapi.md)
