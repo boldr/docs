@@ -10,9 +10,9 @@
 * [Configuration](configuration/README.md)
   * [BoldrCMS](configuration/boldrcms.md)
   * [BoldrAPI](configuration/boldrapi.md)
+  * [NGINX](tools-and-resources/nginx.md)
   * [Working with Docker](configuration/configuring-webpack.md)
 * [Tools and Resources](tools-and-resources.md)
   * [Webpack](tools-and-resources/webpack.md)
   * [FlowType](tools-and-resources/flowtype.md)
-  * NGINX
 
