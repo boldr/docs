@@ -1,6 +1,6 @@
 # Setup Boldr
 
-There are two methods you may use to setup Boldr. The command line program, Boldr-CLI or directly from GitHub. 
+There are two methods you may use to setup Boldr. The command line program, Boldr-CLI or directly from GitHub.
 
 Before we go too far, please make sure your environment meets the following requirements:
 
