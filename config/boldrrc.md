@@ -1,0 +1,38 @@
+# .boldrrc
+
+Copy the `boldrrc.example` file or create a new file named `.boldrrc`
+
+Copy and paste the `.boldrrc` values below, into your file. Make sure to change anything to fit your environment.
+
+```
+{
+  "server": {
+    "port": 2121,
+    "host": "127.0.0.1"
+  },
+  "db": {
+    "url": "postgres://postgres:password@localhost:5432/boldr"
+  },
+  "redis": {
+    "url": "redis://127.0.0.1:6379/1"
+  },
+  "token": {
+    "secret": "tokenissecret"
+  },
+  "mail": {
+    "host": "mail.server.example.com",
+    "user": "email@address.com",
+    "password": "mailpassword",
+    "from": "email@address.com"
+  },
+  "logging": {
+    "level": "debug",
+    "file": {
+      "enabled": false
+    }
+  }
+}
+```
+
+
+

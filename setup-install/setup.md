@@ -4,53 +4,26 @@ Once all dependencies have been installed, the rest of the setup process is quic
 
 After completing the steps below for the API, all that's left to do is run `npm run dev` in both the API and the CMS main folders.
 
-### API
+### Prerequisites
 
-Enter the directory where your API lives.
+[Docker](https://docs.docker.com/engine/installation/) \(version &gt;1.10.0\)  
+[Docker Compose](https://docs.docker.com/compose/install/)
 
 Start the Postgres and Redis services using the command: `docker-compose up --build -d`
 
 This creates the needed containers, runs the database initialization script, gets the tables ready, and starts Redis.
 
+Postgres runs on port 5432 and is exposed.
+
+Redis runs on port 6379 and is exposed as well.
+
 #### Configuration
 
-Copy the `boldrrc.example` file or create a new file named `.boldrrc`
+The configuration file for Boldr is located inside the `.boldr` folder within your project root. The file is named `boldr.js`
 
-Copy and paste the `.boldrrc` values below, into your file. Make sure to change anything to fit your environment.
+In the config file there's quite a bit of behind the scenes customization you can make to your project. We'll cover that in a different section specifically related to the config.
 
-```
-{
-  "server": {
-    "port": 2121,
-    "host": "127.0.0.1"
-  },
-  "db": {
-    "url": "postgres://postgres:password@localhost:5432/boldr"
-  },
-  "redis": {
-    "url": "redis://127.0.0.1:6379/1"
-  },
-  "token": {
-    "secret": "tokenissecret"
-  },
-  "mail": {
-    "host": "mail.server.example.com",
-    "user": "email@address.com",
-    "password": "mailpassword",
-    "from": "email@address.com"
-  },
-  "logging": {
-    "level": "debug",
-    "file": {
-      "enabled": false
-    }
-  }
-}
-```
-
-There are additional values located in `src/config.js`. 
+There are additional values located in `src/config.js`.
 
 These values either change frequently or contain secrets you won't want to publish to GitHub.
-
-
 
