@@ -2,10 +2,6 @@
 
 The main configuration for Boldr's build system and server is located in the root of your project inside the `.boldr` folder. The file `boldr.js` contains everything you need to customize your installation.
 
-
-
-
-
 ### The Inline
 
 ```
@@ -16,8 +12,6 @@ inline: {
 ```
 
 Inline is the first section of the config. Here are the values for your server's port and the dev server port. They are passed to the Webpack compiler and their values set at compile time.
-
-
 
 ### The Bundle
 
@@ -41,7 +35,7 @@ bundle: {
     },
 ```
 
-Bundle is the second block of configuration. Webpack uses the values here to output your project to the correct directories. 
+Bundle is the second block of configuration. Webpack uses the values here to output your project to the correct directories.
 
 **verbose/debug**: Toggling to **true **or **false** controls how much output during development you will see from Webpack.
 
@@ -49,13 +43,11 @@ Bundle is the second block of configuration. Webpack uses the values here to out
 
 **wpProfile**: Collects profiling information about your bundles during production. Set the value to true,  run `boldr-dx build` and Webpack will collect data you can use to analyze the bundle.
 
-**webPath**: This is where your assets are served from. For example boldr.io/assets/bundle.js. 
-
-
+**webPath**: This is where your assets are served from. For example boldr.io/assets/bundle.js.
 
 Finally, there is **vendor**. The vendor array is **extremely important.**
 
-Every time you add or remove a third party dependency that belongs in the browser bundle, you must add that file to the vendor array. This is because not only are vendor files split into their own bundle, but mixed between chunks and a common bundle. 
+Every time you add or remove a third party dependency that belongs in the browser bundle, you must add that file to the vendor array. This is because not only are vendor files split into their own bundle, but mixed between chunks and a common bundle.
 
 ```
 vendor: [
@@ -70,13 +62,9 @@ vendor: [
 
 The remaining values modify where the bundle entry and output goes.
 
-
-
 ### Server Settings
 
 Everything below the bundle is related to the server.
-
-
 
 ```
     server: {
@@ -119,7 +107,6 @@ Everything below the bundle is related to the server.
     cors: {
       whitelist: ['http://localhost:2121', 'http://localhost:3000'],
     },
-
 ```
 
 
